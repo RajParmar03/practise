@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="user.css">
+    <title>User Page</title>
+</head>
+<body>
+    <h1>User Page</h1>
+    <select class="bookGenre" onchange="filterFunction(value)">
+        <option value="">Select Genre</option>
+        <option value="Science">Science</option>
+        <option value="Fiction">Fiction</option>
+        <option value="History">History</option>
+        <option value="Tech">Tech</option>
+        <option value="Business">Business</option>
+    </select>
+    <select class="bookEdition" onchange="sortFunction(value)">
+        <option value="">Select Sort</option>
+        <option value="LTH">Low to High</option>
+        <option value="HTL">High to Low</option>
+    </select>
+    <div class="mainContainer">
+
+    </div>
+    <div class="modal">
+    </div>
+    <div class="transparent"></div>
+</body>
+<script src="user.js"></script>
+</html>

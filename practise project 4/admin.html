@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="admin.css">
+    <title>Admin Dashboard</title>
+</head>
+
+<body>
+    <div class="createBook">
+        <form class="createBookForm">
+            <input type="text" placeholder="Enter iamge of book" class="bookImage" />
+            <input type="text" placeholder="Enter Name" class="bookName" />
+            <input type="text" placeholder="Enter Author" class="bookAuthor" />
+            <select class="bookGenre">
+                <option value="">Select Genre</option>
+                <option value="Science">Science</option>
+                <option value="Fiction">Fiction</option>
+                <option value="History">History</option>
+                <option value="Tech">Tech</option>
+                <option value="Business">Business</option>
+            </select>
+            <select class="bookEdition">
+                <option value="">Select Edition</option>
+                <option value="2020">2020</option>
+                <option value="2021">2021</option>
+                <option value="2022">2022</option>
+            </select>
+            <input type="text" placeholder="Enter Publisher" class="bookPublisher" />
+            <input type="number" placeholder="Enter Cost" class="bookCost" />
+            <input type="submit" value="Add Book" />
+        </form>
+    </div>
+    <div class="displayBooks">
+        <table class="bookTable">
+        </table>
+    </div>
+    <div class="modal">
+        <div class="idBox"></div>
+        <form class="createBookFormModal">
+            <input type="text" placeholder="Enter iamge of book" class="bookImageModal" />
+            <input type="text" placeholder="Enter Name" class="bookNameModal" />
+            <input type="text" placeholder="Enter Author" class="bookAuthorModal" />
+            <select class="bookGenreModal">
+                <option value="">Select Genre</option>
+                <option value="Science">Science</option>
+                <option value="Fiction">Fiction</option>
+                <option value="History">History</option>
+                <option value="Tech">Tech</option>
+                <option value="Business">Business</option>
+            </select>
+            <select class="bookEditionModal">
+                <option value="">Select Edition</option>
+                <option value="2020">2020</option>
+                <option value="2021">2021</option>
+                <option value="2022">2022</option>
+            </select>
+            <input type="text" placeholder="Enter Publisher" class="bookPublisherModal" />
+            <input type="number" placeholder="Enter Cost" class="bookCostModal" />
+            <input type="submit" value="Add Book" />
+        </form>
+    </div>
+    <div class="transparent"></div>
+</body>
+<script src="admin.js" type="module"></script>
+
+</html>

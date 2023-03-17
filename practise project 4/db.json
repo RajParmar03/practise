@@ -1,0 +1,26 @@
+{
+  "books": [
+    {
+      "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNpoKNNzR1EbNy8sPvwfz1_pHxmK37a7cD8Q&usqp=CAU",
+      "book_name": "magic book",
+      "author": "rajparmar",
+      "genre": "History",
+      "edition": "2021",
+      "publisher": "raj",
+      "cost": "100000",
+      "borrowed": true,
+      "id": 1
+    },
+    {
+      "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFPu78fwRi51qudK4UaZRrU696UB1X-S0FZw&usqp=CAU",
+      "book_name": "how to draw",
+      "author": "adf",
+      "genre": "Fiction",
+      "edition": "2020",
+      "publisher": "dsafhfdah",
+      "cost": "20",
+      "borrowed": false,
+      "id": 2
+    }
+  ]
+}
