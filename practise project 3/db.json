@@ -1,0 +1,26 @@
+{
+  "books": [
+    {
+      "image_url": "",
+      "book_name": "",
+      "author": "",
+      "genre": "",
+      "edition": "",
+      "publisher": "",
+      "cost": "",
+      "borrowed": false,
+      "id": 2
+    },
+    {
+      "image_url": "arewgtsdgf",
+      "book_name": "sdgsadg",
+      "author": "sdgasdg",
+      "genre": "Science",
+      "edition": "2021",
+      "publisher": "sdgsadg",
+      "cost": "sdgsadg",
+      "borrowed": false,
+      "id": 3
+    }
+  ]
+}
